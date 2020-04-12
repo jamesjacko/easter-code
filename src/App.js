@@ -1,24 +1,19 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import './numberPad'
+import NumberPad from './numberPad';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <p className="info">Ben and Charlie, for your final clue you must enter the correct pass code.</p>
+      <NumberPad code="1985"></NumberPad>
+      <div className="hidden">
+        <h1>WELL DONE!</h1>
+        <p>Now to get your final prize, find a place where you can see your eyes.</p>
+        <p>HAPPY BUNNY DAY!!!</p>
+      </div>
     </div>
   );
 }

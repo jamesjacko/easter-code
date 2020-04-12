@@ -1,5 +1,27 @@
-.App {
+
+body {
   text-align: center;
+  font-family: 'FinkHeavy';
+  background: url(./bg.jpg) repeat;
+  transition: transform 200ms;
+}
+
+body.correct{
+  transform: translate(-100vw);
+}
+
+.hidden{
+  position: absolute;
+  left:calc(100vw + calc(calc(100vw - 600px)/2));
+  top:90px;
+  border-radius:  31% 69% 9% 91% / 89% 11% 89% 11% ;
+  background: #FFF;
+  width:600px;
+  height:300px;
+  padding:30px;
+  margin: 0 auto;
+  box-shadow: 1px 3px 30px #352a17;
+  font-size:2em;
 }
 
 .App-logo {
@@ -35,4 +57,61 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.numberPad{
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+}
+.numberPad button{
+  width:56px;
+  height:56px;
+  margin:2px;
+  background: none;
+  border:none;
+  color: #eff7d4;
+  font-size: 30px;
+  font-family: 'FinkHeavy';
+  border-radius:  10% 69% 9% 91% / 89% 11% 89% 11%;
+  background-color: #b3ae9e;
+}
+.guess{
+  font-size: 40px;
+  color: #352a17;
+  font-family: 'FinkHeavy';
+}
+.guess.incorrect{
+  color: red;
+}
+.guess.correct{
+  color: green;
+}
+button.checkCode{
+  width:178px;
+  height:56px;
+  margin:15px;
+  background: none;
+  border:none;
+  color: #eff7d4;
+  font-size: 30px;
+  font-family: 'FinkHeavy';
+  border-radius:  10% 69% 9% 91% / 89% 11% 89% 11%;
+  background-color: #38352d;
+}
+.info{
+  color: #282c34;
+  font-size: 45px;
+  width: 450px;
+  margin: 40px auto 40px;
+}
+textarea, select, input, button { outline: none; cursor: pointer; }
+.numberPadContainer{
+  border-radius:  31% 69% 9% 91% / 89% 11% 89% 11% ;
+  background: #FFF;
+  width:300px;
+  height:400px;
+  padding:30px;
+  margin: 0 auto;
+  box-shadow: 1px 3px 30px #352a17;
 }
