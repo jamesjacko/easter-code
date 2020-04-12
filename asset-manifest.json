@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/easter-code/static/css/main.faa8a1ec.chunk.css",
+    "main.js": "/easter-code/static/js/main.4c3dc544.chunk.js",
+    "main.js.map": "/easter-code/static/js/main.4c3dc544.chunk.js.map",
+    "runtime-main.js": "/easter-code/static/js/runtime-main.a3ee06e3.js",
+    "runtime-main.js.map": "/easter-code/static/js/runtime-main.a3ee06e3.js.map",
+    "static/js/2.c0e497ae.chunk.js": "/easter-code/static/js/2.c0e497ae.chunk.js",
+    "static/js/2.c0e497ae.chunk.js.map": "/easter-code/static/js/2.c0e497ae.chunk.js.map",
+    "index.html": "/easter-code/index.html",
+    "precache-manifest.1b4e2b0d81615faeada91879c67a62a0.js": "/easter-code/precache-manifest.1b4e2b0d81615faeada91879c67a62a0.js",
+    "service-worker.js": "/easter-code/service-worker.js",
+    "static/css/main.faa8a1ec.chunk.css.map": "/easter-code/static/css/main.faa8a1ec.chunk.css.map",
+    "static/js/2.c0e497ae.chunk.js.LICENSE.txt": "/easter-code/static/js/2.c0e497ae.chunk.js.LICENSE.txt",
+    "static/media/animalCrossing.ttf": "/easter-code/static/media/animalCrossing.796b643a.ttf",
+    "static/media/App.css": "/easter-code/static/media/bg.51a33d0e.jpg",
+    "static/media/logo.svg": "/easter-code/static/media/logo.5d5d9eef.svg",
+    "static/media/zelda.mp3": "/easter-code/static/media/zelda.4e28f3e7.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a3ee06e3.js",
+    "static/js/2.c0e497ae.chunk.js",
+    "static/css/main.faa8a1ec.chunk.css",
+    "static/js/main.4c3dc544.chunk.js"
+  ]
+}
